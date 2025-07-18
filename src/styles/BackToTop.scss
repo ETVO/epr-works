@@ -1,0 +1,52 @@
+.back-to-top {
+  $width: 2.5rem;
+  position: fixed;
+  z-index: 9999;
+  left: calc(50% - $width/2.1);
+  right: calc(50% - $width/2.1);
+  bottom: $width/2;
+
+  transition: opacity 0.2s, transform .2s ease;
+
+  &.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.jump {
+    animation: jump .8s cubic-bezier(0.46,0.03,0.52,0.96) infinite;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  .arrow {
+    width: $width;
+    height: $width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // Breakpoint md, go to the right side and inline arrow
+  @media (min-width: 48rem) {
+    left: unset;
+    bottom: $width;
+    // right: 0;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-offgold: #fffae8;
+  --color-lightgold: #eccd69;
+  --color-gold: #c29500;
+  --color-darkergold: #846b19;
+  --color-darkgold: #4d3c17;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: Inter, sans-serif;
+}
+
+*::selection {
+  background-color: var(--color-gold);
+  color: #fff;
+}
+
+html {
+  overflow-y: scroll !important;
+}
+
+b {
+  font-weight: bold;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 15% 20%;
+}

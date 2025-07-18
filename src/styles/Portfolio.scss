@@ -1,0 +1,15 @@
+.portfolio-image {
+  position: relative;
+  filter: contrast(107%);
+
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.transition-description {
+  transition:
+    height 0.5s ease-out,
+    opacity 0.3s ease;
+}

@@ -1,0 +1,11 @@
+.Extras p {
+  margin-bottom: 1rem;
+}
+
+.album {
+  display: block;
+  transition: transform .2s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

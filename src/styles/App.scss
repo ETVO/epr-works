@@ -1,0 +1,24 @@
+.hover-underline {
+  transition: color .1s ease;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: calc(-1em / 20);
+    left: 0;
+    height: .5px;
+    width: 100%;
+    background-color: var(--color-gold);
+
+    opacity: 0;
+
+    transition: opacity 0.1s ease;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+}
