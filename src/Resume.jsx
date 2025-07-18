@@ -316,30 +316,30 @@ const languages = [
 
 
 
-export default function Resume() {
+export default function Résumé() {
 
   return (
     <>
-      <h1 className='text-xl font-bold'>Resume</h1>
+      <h1 className='text-xl font-bold'>Résumé</h1>
 
-      <p>Welcome to my resume page. Here you’ll find a detailed overview of my professional experience, divided into two sections: Full-Time Roles and Freelance Projects.</p>
+      <p>Welcome to my résumé page. Here you’ll find a detailed overview of my professional experience, divided into two sections: Full-Time Roles and Freelance Projects.</p>
 
-      <div className="resume-section mt-10">
+      <div className="résumé-section mt-10">
         <h2 className="text-2xl font-bold text-gold cursor-pointer">Experience</h2>
 
         <Experience experience={workExperience} />
       </div>
-      <div className="resume-section mt-10">
+      <div className="résumé-section mt-10">
         <h2 className="text-2xl font-bold text-gold cursor-pointer">Education</h2>
 
         <Experience experience={education} hideDuration={true} />
       </div>
-      <div className="resume-section mt-10">
+      <div className="résumé-section mt-10">
         <h2 className="text-2xl font-bold text-gold cursor-pointer">Additional Qualification</h2>
 
         <Experience experience={additional} />
       </div>
-      <div className="resume-section mt-10">
+      <div className="résumé-section mt-10">
         <h2 className="text-2xl font-bold text-gold cursor-pointer">Languages</h2>
 
         <Experience experience={languages} />

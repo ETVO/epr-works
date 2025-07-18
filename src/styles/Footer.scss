@@ -1,0 +1,11 @@
+@media all and (max-width: 400px) {
+  .Footer footer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    ul {
+      padding: 0 1rem .25rem;
+      align-items: center;
+      flex-flow: column !important;
+    }
+  }
+}

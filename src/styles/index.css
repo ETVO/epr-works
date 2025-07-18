@@ -6,6 +6,7 @@
   --color-gold: #c29500;
   --color-darkergold: #846b19;
   --color-darkgold: #4d3c17;
+  --breakpoint-xs: 22.5rem
 }
 
 html {
