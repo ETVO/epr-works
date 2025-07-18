@@ -21,6 +21,8 @@ Basically, the themes set up how the website is going to work, how we'll process
 
 The plugins, on the other hand, are supposed to extend the website with interesting functionality. In the "blocks" plugins I developed, I’d create reusable blocks that can be easily edited in the WordPress Gutenberg editor (based on JSX), and then rendered on the public pages using PHP. They contain an interesting block-generation system that automatically registers blocks and their rendering logic -- saving lots of time and lines of code.
 
+Oh, and my default approach for developing these themes and plugins became OOP (Object-Oriented Programming). It made everything so much better organized, allowed for clear management of WordPress hooks and actions -- and honestly, it just looks better.
+
 ### Worth noting
 
 Here are some projects I think you'll like to check out:
