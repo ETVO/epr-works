@@ -144,7 +144,7 @@ const workExperience = [
     location: "Lisbon, Portugal",
     modality: "Remote",
     periodStart: "Jul 2021",
-    periodEnd: "Oct 2021",
+    periodEnd: "Sep 2021",
     skills: [
       "PHP",
       "SOAP",
@@ -325,22 +325,22 @@ export default function Résumé() {
       <p>Welcome to my résumé page. Here you’ll find a detailed overview of my professional experience, divided into two sections: Full-Time Roles and Freelance Projects.</p>
 
       <div className="résumé-section mt-10">
-        <h2 className="text-2xl font-bold text-gold cursor-pointer">Experience</h2>
+        <h2 className="text-2xl font-bold text-gold">Experience</h2>
 
         <Experience experience={workExperience} />
       </div>
       <div className="résumé-section mt-10">
-        <h2 className="text-2xl font-bold text-gold cursor-pointer">Education</h2>
+        <h2 className="text-2xl font-bold text-gold">Education</h2>
 
         <Experience experience={education} hideDuration={true} />
       </div>
       <div className="résumé-section mt-10">
-        <h2 className="text-2xl font-bold text-gold cursor-pointer">Additional Qualification</h2>
+        <h2 className="text-2xl font-bold text-gold">Additional Qualification</h2>
 
         <Experience experience={additional} />
       </div>
       <div className="résumé-section mt-10">
-        <h2 className="text-2xl font-bold text-gold cursor-pointer">Languages</h2>
+        <h2 className="text-2xl font-bold text-gold">Languages</h2>
 
         <Experience experience={languages} />
         {/* {languages.map((lang, idx) => (

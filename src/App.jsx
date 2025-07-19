@@ -37,7 +37,11 @@ function Home() {
           This website was built with React.js and Vite!<br/>Check out the GitHub repository for this project: <a className='hover-underline text-gold' target='_blank' href="https://github.com/ETVO/epr-works">ETVO/epr-works</a>
         </p>
         <p className='text-sm text-gray-500'>
-          <a className='hover-underline text-gold' target='_blank' href="https://docs.google.com/document/d/1WN9uvv4_qSLyZqCBvtQdcyVrsKz4dyxCR_hx7aYRfYY/export?format=pdf" download>Download my CV</a>
+          <a className='hover-underline text-gold' target='_blank' href="https://docs.google.com/document/d/1WN9uvv4_qSLyZqCBvtQdcyVrsKz4dyxCR_hx7aYRfYY/export?format=pdf" download>Download my CV</a> 
+          &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+          <a className='hover-underline text-gold' target='_blank' href="https://linkedin.com/in/estevaoprolim">Connect on LinkedIn</a>
+        </p>
+        <p className='text-sm text-gray-500'>
         </p>
       </div>
     </>
@@ -47,7 +51,7 @@ function Home() {
 export default function App() {
 
   return (
-    <div className="App flex pt-8 sm:pt-20 pb-10">
+    <div className="App flex pt-8 sm:pt-20 pb-4">
       <div className='container max-w-prose mx-auto'>
         <BrowserRouter>
           <Routes>
