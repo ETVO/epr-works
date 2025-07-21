@@ -117,6 +117,7 @@ const workExperience = [
     modality: "Remote",
     periodStart: "Feb 2022",
     periodEnd: "Jan 2023",
+    keySkills: 3,
     skills: [
       "Figma",
       "Adobe Illustrator",
