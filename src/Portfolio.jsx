@@ -9,7 +9,7 @@ const featured = [
     imgs: ["/portfolio/luxdigital.jpg"],
     desc: "\"Digital marketing, human strategy\" is the motto driving Lux Digital’s work. The website was designed to visually express this fresh, personalized approach. By balancing vibrant colors with clear messaging, the design cuts through the noise and projects confidence with a strong sense of authenticity. Before prototyping and development, I worked on Lux’s branding and visual identity, uncovering the core idea and ensuring it remained consistent across all media. Crafted, conceptualized and developed by Estevão P. Rolim.",
     services: ["Branding", "Prototyping", "Development", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://novaempreendimentos.com.br",
@@ -18,7 +18,7 @@ const featured = [
     imgs: ["/portfolio/nova-empre.jpg"],
     desc: "A robust, feature-rich website designed to showcase the portfolio of a leading real estate venture company. With elegant design and a strong focus on user experience, every page was carefully developed to precisely reproduce the original design, provided by a different professional, while ensuring functionality, responsiveness, and performance.",
     services: ["Development of WP Theme & Plugin", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
 ]
 
@@ -57,7 +57,7 @@ const portfolioProjects = [
     imgs: ["/portfolio/femai.jpg"],
     desc: "FEMAI is a real estate company focused on residential and commercial developments. Built from a prototype designed by another professional, so precision was a priority, while also ensuring functionality, performance, and responsiveness across devices. Aimed at lead conversion and property showcase.",
     services: ["Development of WP Theme & Plugin", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://comelliconstrucoes.com.br",
@@ -66,7 +66,7 @@ const portfolioProjects = [
     imgs: ["/portfolio/comelli.jpg"],
     desc: "Comelli is a construction company focused on residential buildings. Built from a prototype designed by another professional, so precision was a priority, while also ensuring functionality, performance, and responsiveness across devices. Aimed at lead conversion and property showcase.",
     services: ["Development of WP Theme & Plugin", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://gprinvestimentos.com.br",
@@ -75,7 +75,7 @@ const portfolioProjects = [
     imgs: ["/portfolio/gpr.jpg"],
     desc: "GPR Investimentos is a real estate company specializing on modern investment strategies. Built from a prototype designed by another professional, so precision was a priority, while also ensuring functionality, performance, and responsiveness across devices. Aimed at lead conversion and property showcase.",
     services: ["Development of WP Theme & Plugin", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://gdiempreendimentos.com",
@@ -84,7 +84,7 @@ const portfolioProjects = [
     imgs: ["/portfolio/gdi.jpg"],
     desc: "GDI Investimentos is a real estate company focused on high-level residential developments. Built from a prototype designed by another professional, so precision was a priority, while also ensuring functionality, performance, and responsiveness across devices. Aimed at lead conversion and property showcase.",
     services: ["Development of WP Theme & Plugin", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://cfnegocios.com.br",
@@ -93,7 +93,7 @@ const portfolioProjects = [
     imgs: ["/portfolio/cf.jpg"],
     desc: "CF Negócios is a real estate company specializing in time-sharing developments for the tourism sector. Built from a prototype designed by another professional, so precision was a priority, while also ensuring functionality, performance, and responsiveness across devices. Aimed at lead conversion and property showcase.",
     services: ["Development of WP Theme & Plugin", "Implementation"],
-    tech: ["WordPress", "PHP", "JavaScript", "HTML", "SCSS"]
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://voleibol-competencias.com",
