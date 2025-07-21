@@ -5,7 +5,9 @@ Good to see you here!
 
 A showcase of my professional portfolio, along with my detailed résumé and some extra information about my artistic projects.
 
-It was developed using React.js with Vite. I enjoy working with React, as it allows for very modern web application development -- making intuitive experiences achievable with fewer steps and better overall performance. Plus, the single-page style really adds a nice touch to it, doesn't it?
+It was developed using React.js and Tailwind CSS. I enjoy working with React, as it allows for very modern web application development -- making intuitive experiences achievable with fewer steps and better overall performance. Plus, the single-page style really adds a nice touch to it, doesn't it?
+
+Tailwind is relatively new to me. The learning curve felt steep at first, but once it clicked, everything made sense. Most of my experience has been with Bootstrap, but Tailwind takes the utility-first approach to a whole new level—it just feels more fluid and expressive.
 
 Design proposal: very minimalistic, clean style. It's supposed to be sufficiently interesting -- and interestingly sufficient.
 
