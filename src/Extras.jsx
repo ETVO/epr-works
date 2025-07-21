@@ -5,7 +5,7 @@ const albums = [
     title: "Antes de Ir",
     url: "https://open.spotify.com/album/3qVt4IoxwlvWy5DzXM4JEC",
     img: {
-      src: "/albums/antes-de-ir.png",
+      src: "/albums/antes-de-ir.jpg",
       alt: "Portuguese tile over a white wall, with traditional decorations and a centered scription that says the name of the album, Antes de Ir, and the name of the artist, \"Estevão\"."
     }
   },
@@ -13,7 +13,7 @@ const albums = [
     title: "Vitória & Esplendor",
     url: "https://open.spotify.com/album/7mwFb5jV4jO9vnjSVdT1MM",
     img: {
-      src: "/albums/vitoria-e-esplendor.png",
+      src: "/albums/vitoria-e-esplendor.jpg",
       alt: "Photo of Estevão with the sea as background, in front of a orange sunset. Inside Estevão's head, we see the text \"3464 Vitória & Esplendor Estevão\". Behind and around Estevão, we see a green translucent text with the name of the album."
     }
   },
