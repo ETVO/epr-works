@@ -338,20 +338,14 @@ export default function Résumé() {
         <Experience experience={education} hideDuration={true} />
       </div>
       <div className="résumé-section mt-10">
-        <h2 className="text-2xl font-bold text-gold">Additional Qualification</h2>
-
-        <Experience experience={additional} />
-      </div>
-      <div className="résumé-section mt-10">
         <h2 className="text-2xl font-bold text-gold">Languages</h2>
 
         <Experience experience={languages} />
-        {/* {languages.map((lang, idx) => (
-          <div className="flex flex-col items-baseline mt-4 ms-4" key={idx}>
-            <h3 className="title text-md font-bold leading-snug">{lang.name}</h3>
-            <p className="text-sm font-light">{lang.level}</p>
-          </div>
-        ))} */}
+      </div>
+      <div className="résumé-section mt-10">
+        <h2 className="text-2xl font-bold text-gold">Additional Qualification</h2>
+
+        <Experience experience={additional} />
       </div>
     </>
   )
