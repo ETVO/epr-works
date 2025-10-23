@@ -10,7 +10,7 @@ export default function Footer() {
             <a className='hover-underline hover:text-gold' href="mailto:estevao.prolim@gmail.com" target='_nlank'>estevao.prolim@gmail.com</a>
           </li>
           <li>
-            <a className='hover-underline hover:text-gold' href="https://wa.me/491751443857" target='blank'>+49 0175 1443857</a>
+            <a className='hover-underline hover:text-gold' href="https://wa.me/351912289965" target='blank'>+351 912 289 965</a>
           </li>
         </ul>
         <div className='pattern-divider mt-4'></div>
