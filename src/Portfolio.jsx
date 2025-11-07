@@ -3,15 +3,6 @@ import './styles/Portfolio.scss';
 
 const featured = [
   {
-    url: "https://luxdigital.pt",
-    title: "Lux Digital",
-    year: 2023,
-    imgs: ["/portfolio/luxdigital.jpg"],
-    desc: "\"Digital marketing, human strategy\" is the motto driving Lux Digital’s work. The website was designed to visually express this fresh, personalized approach. By balancing vibrant colors with clear messaging, the design cuts through the noise and projects confidence with a strong sense of authenticity. Before prototyping and development, I worked on Lux’s branding and visual identity, uncovering the core idea and ensuring it remained consistent across all media. Crafted, conceptualized and developed by Estevão P. Rolim.",
-    services: ["Branding", "Prototyping", "Development", "Implementation"],
-    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
-  },
-  {
     url: "https://novaempreendimentos.com.br",
     title: "Nova Empreendimentos",
     year: 2023,
@@ -31,6 +22,15 @@ const portfolioProjects = [
     desc: "An institutional website for the restaurant and pizzeria affiliated with Quinta Terramay, located in Alentejo, Portugal. Designed to reflect the essence and flavor of their products through a clean and elegant presentation, while maintaining consistency with Terramay’s visual and editorial identity.",
     services: ["Building with Squarespace", "Implementation"],
     tech: ["Squarespace"]
+  },
+  {
+    url: "https://luxdigital.pt",
+    title: "Lux Digital",
+    year: 2023,
+    imgs: ["/portfolio/luxdigital.jpg"],
+    desc: "\"Digital marketing, human strategy\" is the motto driving Lux Digital’s work. The website was designed to visually express this fresh, personalized approach. By balancing vibrant colors with clear messaging, the design cuts through the noise and projects confidence with a strong sense of authenticity. Before prototyping and development, I worked on Lux’s branding and visual identity, uncovering the core idea and ensuring it remained consistent across all media. Crafted, conceptualized and developed by Estevão P. Rolim.",
+    services: ["Branding", "Prototyping", "Development", "Implementation"],
+    tech: ["WordPress", "ACF", "PHP", "JavaScript", "HTML", "SCSS"]
   },
   {
     url: "https://oficmusic.com",
