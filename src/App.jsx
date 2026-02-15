@@ -34,7 +34,7 @@ function Home() {
         <img className='profile-photo w-20 h-30' src="./Estevão-Pereira-Rolim.jpg" alt="Photo of Estevão" />
 
         <p className='text-sm text-gray-500'>
-          This website was built with React.js and Tailwind!<br/>Check out the GitHub repository for this project: <a className='hover-underline text-gold' target='_blank' href="https://github.com/ETVO/epr-works">ETVO/epr-works</a>
+          This website was built with React.js and Tailwind CSS!<br/>Check out the GitHub repository for this project: <a className='hover-underline text-gold' target='_blank' href="https://github.com/ETVO/epr-works">ETVO/epr-works</a>
         </p>
         <p className='text-sm text-gray-500'>
           <a className='hover-underline text-gold' target='_blank' href="https://docs.google.com/document/d/1WN9uvv4_qSLyZqCBvtQdcyVrsKz4dyxCR_hx7aYRfYY/export?format=pdf" download>Download my CV</a> 
