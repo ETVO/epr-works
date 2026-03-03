@@ -4,7 +4,7 @@
   z-index: 9999;
   left: calc(50% - $width/2.1);
   right: calc(50% - $width/2.1);
-  bottom: $width/2;
+  bottom: calc($width/2);
 
   transition: opacity 0.2s, transform .2s ease;
 

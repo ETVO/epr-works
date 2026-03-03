@@ -38,5 +38,5 @@ img {
 .profile-photo {
   border-radius: 50%;
   object-fit: cover;
-  object-position: 15% 20%;
+  object-position: 45% 20%;
 }
