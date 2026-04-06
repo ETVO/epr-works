@@ -1,13 +1,17 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --color-offgold: #fffae8;
-  --color-lightgold: #eccd69;
-  --color-primary: #e6a800;
-  --color-darkergold: #846b19;
-  --color-darkgold: #4d3c17;
+  --color-primary: rgb(255, 136, 86);
+  --color-secondary: rgb(65, 255, 176);
   --color-muted: #aaa;
-  --breakpoint-xs: 22.5rem
+  --breakpoint-xs: 22.5rem;
+}
+
+:root {
+  --primary: rgb(255, 136, 86);
+  --secondary: rgb(65, 255, 176);
+  --tertiary: rgb(205, 126, 255);
+  --quaternary: rgb(218, 255, 126);
 }
 
 html {
@@ -19,8 +23,8 @@ html {
 }
 
 *::selection {
-  background-color: var(--color-primary);
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: #000;
 }
 
 html {
@@ -28,7 +32,7 @@ html {
 }
 
 body {
-  background-color: #101010;
+  background-color: #111;
   color: #fff;
 }
 
@@ -39,10 +43,4 @@ b {
 img {
   user-select: none;
   -webkit-user-drag: none;
-}
-
-.profile-photo {
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: 45% 20%;
 }

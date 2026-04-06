@@ -39,9 +39,7 @@ function PortfolioItem({ project }) {
       rel="noopener noreferrer"
       className="portfolio-item"
     >
-      <div>
-        <img src={project.imgs[0]} className="portfolio-image" />
-      </div>
+      <img src={project.imgs[0]} className="portfolio-image" />
 
       <div>
         <h2 className="text-xl font-bold">{project.title}</h2>
@@ -50,7 +48,7 @@ function PortfolioItem({ project }) {
           {project.services.join(' • ')}
         </p>
 
-        <i className="bi bi-arrow-up-right text-primary"></i>
+        <i className="bi bi-arrow-up-right"></i>
       </div>
     </a>
   )
