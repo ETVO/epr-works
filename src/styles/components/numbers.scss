@@ -1,0 +1,24 @@
+.numbers {
+  display: flex;
+  gap: 2rem;
+  margin-block-end: 4rem;
+  
+  > div {
+    span {
+      display: block;
+    }
+    span:nth-child(1) {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: .1rem;
+    }
+    span:nth-child(2) {
+      width: 100px;
+      font-size: var(--text-xs);
+      letter-spacing: .01rem;
+      text-transform: uppercase;
+
+      color: var(--color-muted);
+    }
+  }
+}

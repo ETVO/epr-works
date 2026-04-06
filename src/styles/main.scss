@@ -1,0 +1,118 @@
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: 'bootstrap-icons/font/fonts';
+
+// Import the Sass files as usual
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.hover-underline {
+  transition: color 0.1s ease;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: calc(-1em / 20);
+    left: 0;
+    height: 0.5px;
+    width: 100%;
+    background-color: var(--color-primary);
+
+    opacity: 0;
+
+    transition: opacity 0.1s ease;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.section-title {
+  margin-block-start: 8rem;
+  margin-block-end: 2.5rem;
+  font-size: 4rem;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: rgba(white, 0.9);
+  text-transform: uppercase;
+
+  @media all and (max-width: 640px) {
+    font-size: clamp(1.75rem, 12vw, 3rem);
+    margin-block-start: 6rem;
+  }
+
+  span {
+    display: block;
+    // color: var(--color-muted);
+  }
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+
+  @media all and (max-width: 1100px) {
+    width: 900px;
+  }
+  @media all and (max-width: 920px) {
+    width: 65ch;
+    padding: 0 1.5rem;
+  }
+  @media all and (max-width: 640px) {
+    width: 520px;
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
+}
+
+.hide-mobile {
+  @media all and (max-width: 640px) {
+    display: none;
+  }
+}
+.show-mobile {
+  @media all and (min-width: 641px) {
+    display: none;
+  }
+}
+
+.main {
+  margin-block-start: 6rem;
+  @media all and (max-width: 920px) {
+    margin-block-start: 4rem;
+  }
+
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+
+  .side {
+  }
+
+  .content {
+    max-width: 65ch;
+  }
+
+  @media all and (max-width: 920px) {
+    flex-flow: column;
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0 3rem;
+
+  font-size: var(--text-sm);
+  * {
+    color: var(--color-muted);
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  a {
+    cursor: text;
+  }
+}

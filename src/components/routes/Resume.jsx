@@ -1,5 +1,5 @@
-import Experience from "./components/Experience";
-import './styles/Resume.scss';
+import Experience from "../Experience";
+import '../../styles/Resume.scss';
 
 const workExperience = [
   {

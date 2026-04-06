@@ -1,0 +1,33 @@
+.presentation {
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+
+  h1 {
+    font-size: 3rem;
+    margin-block-end: 1rem;
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  > div {
+    p {
+      width: 500px;
+      max-width: 100%;
+      font-size: var(--text-sm);
+      line-height: 1.7;
+      color: #ddd;
+      font-weight: 300;
+    }
+  }
+
+  @media all and (max-width: 920px) {
+    margin-block-start: unset;
+
+    > div p {
+      display: inline;
+      &::before {
+        content:  ' ';
+      }
+    }
+  }
+}

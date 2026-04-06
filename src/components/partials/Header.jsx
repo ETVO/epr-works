@@ -19,12 +19,6 @@ export default function Header() {
             <li>
               <NavLink to="/portfolio" className={({ isActive }) => isActive ? activeStyle : defaultStyle}>Portfolio</NavLink>
             </li>
-            <li>
-              <NavLink to="/résumé" className={({ isActive }) => isActive ? activeStyle : defaultStyle}>Résumé</NavLink>
-            </li>
-            <li>
-              <NavLink to="/extras" className={({ isActive }) => isActive ? activeStyle : defaultStyle}>Extras</NavLink>
-            </li>
           </ul>
         </header>
       </div>

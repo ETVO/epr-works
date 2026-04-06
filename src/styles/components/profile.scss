@@ -1,0 +1,59 @@
+.profile {
+  top: 1.5rem;
+  position: sticky;
+  height: auto;
+
+  background: linear-gradient(#eee, #ddd);
+  color: #111;
+  padding: 1.2rem 2rem;
+  border-radius: 1rem;
+
+  width: 300px;
+  max-width: 100%;
+
+  border: solid 0.125rem var(--quaternary);
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+
+  
+  @media all and (max-width: 920px) {
+    position: unset;
+  }
+
+  img.profile-photo {
+    outline: solid 0.45rem var(--quaternary);
+
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 45% 20%;
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
+
+    justify-content: flex-start;
+
+    a {
+      display: flex;
+      transition: background-color 0.1s ease;
+
+      font-size: 1.2rem;
+      width: 2rem;
+      height: 1.8rem;
+
+      border-radius: 0.25rem;
+
+      &::before {
+        margin: auto;
+      }
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+}

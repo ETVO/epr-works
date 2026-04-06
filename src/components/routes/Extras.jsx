@@ -1,4 +1,4 @@
-import './styles/Extras.scss';
+import '../../styles/Extras.scss';
 
 const albums = [
   {

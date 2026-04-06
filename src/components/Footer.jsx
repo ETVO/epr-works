@@ -1,20 +1,32 @@
-import { NavLink } from "react-router";
-import "../styles/Footer.scss"
+import { useState } from 'react'
 
-export default function Footer() {
+const Footer = () => {
+  const [dot, setDot] = useState('.')
+
+  const addDot = () => {
+    console.log('........................................'.length)
+    if(dot.length >= 60) {
+      return setDot('.')
+    }
+    if (dot.length === 40) {
+      return setDot((prev) => prev + ' Wow!')
+    }
+    if (dot.slice(dot.length - 1) === '!') {
+      return setDot((prev) => prev + '!')
+    }
+    setDot((prev) => prev + '.')
+  }
   return (
-    <div className="Footer">
-      <footer className="mt-10 pt-4 px-4 sm:px-6 border-t-1 border-gray-100">
-        <ul className='flex flex-row justify-between gap-4 text-xs text-gray-500'>
-          <li>
-            <a className='hover-underline hover:text-gold' href="mailto:estevao.prolim@gmail.com" target='_nlank'>estevao.prolim@gmail.com</a>
-          </li>
-          <li>
-            <a className='hover-underline hover:text-gold' href="https://wa.me/351912289965" target='blank'>+351 912 289 965</a>
-          </li>
-        </ul>
-        <div className='pattern-divider mt-4'></div>
-      </footer>
-    </div>
+    <footer>
+      <p>
+        Developed by{' '}
+        <a href="#it-is-me!" onClick={addDot}>
+          ETVO
+        </a>
+        {dot}
+      </p>
+    </footer>
   )
 }
+
+export default Footer

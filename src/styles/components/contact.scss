@@ -1,0 +1,21 @@
+.contact {
+  margin-block-end: 15rem;
+
+  @media all and (max-width: 920px) {
+    margin-block-end: 2rem;
+  }
+  h2 span {
+    color: var(--quaternary);
+  }
+
+  p {
+    margin-block-end: 1rem;
+    color: var(--color-muted);
+  }
+
+  div {
+    a {
+      color: var(--quaternary);
+    }
+  }
+}
