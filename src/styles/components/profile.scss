@@ -1,0 +1,32 @@
+.profile {
+  background-color: #fff;
+  color: #101010;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+
+  .links {
+    display: flex;
+    gap: 2.5rem;
+
+    justify-content: space-between;
+
+    a {
+      display: flex;
+      transition: background-color 0.1s ease;
+      
+      font-size: 1.2rem;
+      width: 2rem;
+      height: 1.8rem;
+
+      border-radius: .25rem;
+
+      &::before {
+        margin: auto;
+      }
+
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+}

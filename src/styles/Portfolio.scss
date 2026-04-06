@@ -1,15 +1,56 @@
-.portfolio-image {
-  position: relative;
-  filter: contrast(107%);
-
-  transition: transform 0.3s ease;
-  &:hover {
-    transform: scale(1.02);
-  }
-}
-
 .transition-description {
   transition:
     height 0.5s ease-out,
     opacity 0.3s ease;
+}
+
+.portfolio {
+  a.portfolio-item {
+    position: relative;
+
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    align-items: center;
+
+    @media all and (max-width: 512px) {
+      display: flex;
+      flex-flow: column;
+    }
+
+
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    transition: background-color 0.2s ease;
+
+    img.portfolio-image {
+      width: 200px;
+      aspect-ratio: 16 / 9;
+      border-radius: 0.75rem;
+
+      object-fit: cover;
+      object-position: 0% 0%;
+
+      filter: contrast(107%);
+
+      transition: transform 0.3s ease;
+    }
+
+    i.bi {
+      font-size: .8rem;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      background-color: #222;
+
+      i.bi {
+        transform: translate(.25rem, -.25rem);
+      }
+    }
+  }
 }

@@ -3,9 +3,10 @@
 @theme {
   --color-offgold: #fffae8;
   --color-lightgold: #eccd69;
-  --color-gold: #c29500;
+  --color-primary: #e6a800;
   --color-darkergold: #846b19;
   --color-darkgold: #4d3c17;
+  --color-muted: #aaa;
   --breakpoint-xs: 22.5rem
 }
 
@@ -18,12 +19,17 @@ html {
 }
 
 *::selection {
-  background-color: var(--color-gold);
+  background-color: var(--color-primary);
   color: #fff;
 }
 
 html {
   overflow-y: scroll !important;
+}
+
+body {
+  background-color: #101010;
+  color: #fff;
 }
 
 b {
